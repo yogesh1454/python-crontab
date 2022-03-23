@@ -3,19 +3,27 @@ import sys
 import subprocess
 from devices import loader
 from argparse import ArgumentParser
+import logging
+import logging.config
+
+logging.config.fileConfig(fname='logger.conf', disable_existing_loggers=False)
+
+# Get the logger specified in the file
+logger = logging.getLogger(__name__)
+
 
 def device_transform(file):
     # Run subprocess.run and save output object
-    output = subprocess.run(['python', '/Users/Shared/Workspace/Development/NikeBuild/python/cron-script/devices/nma/transform.py', '--filename',file])
-    print('############### Transformation Done')
-    print('Return code:', output.returncode)
+    output = subprocess.run(['python', '/Users/Shared/Workspace/Development/NikeBuild/python/cron-script/devices/nma/transform.py', '--filename', file])
+    logger.info('############### Transformation Done')
+    logger.info('Return code: %s', output.returncode)
     # use decode function to convert to string
    # print('Output:', output.stdout.decode("utf-8"))
 
 def scan_directory(folder):
 
     files = os.listdir(folder)
-    print("File to be process: ", files)
+    logger.info("File to be process: {0}".format(files))
 
     for f in files:
         device_transform(f)
@@ -30,13 +38,14 @@ def main(folder):
     scan_directory(folder);
 
 if __name__ == '__main__':
-    print("Scan directoy")
+    #logger.basicConfig(level=logging.INFO)
+    logger.info("Scan directoy")
 
     parser = ArgumentParser()
     parser.add_argument('-i', '--input', default='/Users/Shared/Workspace/Development/NikeBuild/python/cron-script/fileset/nma', help='Input path/to/file.csv', required=False)
 
     args = parser.parse_args()
-    print("Displaying Input Parameters as: % s" % args.input)
+    logger.info("Displaying Input Parameters as: %s", args.input)
 
     main(args.input)
     sys.exit(0)  #0 - success
