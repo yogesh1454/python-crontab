@@ -5,8 +5,15 @@ from devices import loader
 from argparse import ArgumentParser
 import logging
 import logging.config
+import yaml
+# Property based logging
+# logging.config.fileConfig(fname='logger.conf', disable_existing_loggers=False)
 
-logging.config.fileConfig(fname='logger.conf', disable_existing_loggers=False)
+# yaml file based logging
+with open('logger.yaml', 'r') as f:
+    config = yaml.safe_load(f.read())
+    logging.config.dictConfig(config)
+
 
 # Get the logger specified in the file
 logger = logging.getLogger(__name__)
@@ -38,9 +45,10 @@ def main(folder):
     scan_directory(folder);
 
 if __name__ == '__main__':
-    #logger.basicConfig(level=logging.INFO)
-    logger.info("Scan directoy")
-
+   # logger.basicConfig(level=logging.INFO)
+   # logger.info("Scan directoy")
+   # for i in range(100000):
+   #     logger.info("Print the value: %d", i)
     parser = ArgumentParser()
     parser.add_argument('-i', '--input', default='/Users/Shared/Workspace/Development/NikeBuild/python/cron-script/fileset/nma', help='Input path/to/file.csv', required=False)
 
