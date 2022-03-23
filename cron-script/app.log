@@ -1,31 +1,82 @@
-2022-03-23 16:06:55,725 - __main__ - INFO - Print the value: 99975
-2022-03-23 16:06:55,726 - __main__ - INFO - Print the value: 99976
-2022-03-23 16:06:55,726 - __main__ - INFO - Print the value: 99977
-2022-03-23 16:06:55,726 - __main__ - INFO - Print the value: 99978
-2022-03-23 16:06:55,726 - __main__ - INFO - Print the value: 99979
-2022-03-23 16:06:55,727 - __main__ - INFO - Print the value: 99980
-2022-03-23 16:06:55,727 - __main__ - INFO - Print the value: 99981
-2022-03-23 16:06:55,727 - __main__ - INFO - Print the value: 99982
-2022-03-23 16:06:55,727 - __main__ - INFO - Print the value: 99983
-2022-03-23 16:06:55,727 - __main__ - INFO - Print the value: 99984
-2022-03-23 16:06:55,727 - __main__ - INFO - Print the value: 99985
-2022-03-23 16:06:55,727 - __main__ - INFO - Print the value: 99986
-2022-03-23 16:06:55,727 - __main__ - INFO - Print the value: 99987
-2022-03-23 16:06:55,727 - __main__ - INFO - Print the value: 99988
-2022-03-23 16:06:55,727 - __main__ - INFO - Print the value: 99989
-2022-03-23 16:06:55,727 - __main__ - INFO - Print the value: 99990
-2022-03-23 16:06:55,727 - __main__ - INFO - Print the value: 99991
-2022-03-23 16:06:55,727 - __main__ - INFO - Print the value: 99992
-2022-03-23 16:06:55,727 - __main__ - INFO - Print the value: 99993
-2022-03-23 16:06:55,727 - __main__ - INFO - Print the value: 99994
-2022-03-23 16:06:55,727 - __main__ - INFO - Print the value: 99995
-2022-03-23 16:06:55,728 - __main__ - INFO - Print the value: 99996
-2022-03-23 16:06:55,728 - __main__ - INFO - Print the value: 99997
-2022-03-23 16:06:55,728 - __main__ - INFO - Print the value: 99998
-2022-03-23 16:06:55,728 - __main__ - INFO - Print the value: 99999
-2022-03-23 16:06:55,737 - __main__ - INFO - Displaying Input Parameters as: /Users/Shared/Workspace/Development/NikeBuild/python/cron-script/fileset/nma
-2022-03-23 16:06:55,738 - __main__ - INFO - File to be process: ['nam_inventory1.txt', 'nma_inventory2.txt']
-2022-03-23 16:06:56,035 - __main__ - INFO - ############### Transformation Done
-2022-03-23 16:06:56,035 - __main__ - INFO - Return code: 0
-2022-03-23 16:06:56,276 - __main__ - INFO - ############### Transformation Done
-2022-03-23 16:06:56,276 - __main__ - INFO - Return code: 0
+2022-03-23 16:32:41,471 - __main__ - INFO - Return code: 0
+2022-03-23 16:32:41,471 - __main__ - INFO - File Tuple Parts: ('logger', '.yaml')
+2022-03-23 16:32:41,711 - __main__ - INFO - ############### Transformation Done
+2022-03-23 16:32:41,712 - __main__ - INFO - Return code: 0
+2022-03-23 16:32:41,712 - __main__ - INFO - File Tuple Parts: ('scan-directory-copy', '.py')
+2022-03-23 16:32:41,882 - __main__ - INFO - ############### Transformation Done
+2022-03-23 16:32:41,882 - __main__ - INFO - Return code: 0
+2022-03-23 16:32:41,882 - __main__ - INFO - File Tuple Parts: ('logger', '.conf')
+2022-03-23 16:32:42,097 - __main__ - INFO - ############### Transformation Done
+2022-03-23 16:32:42,098 - __main__ - INFO - Return code: 0
+2022-03-23 16:32:42,098 - __main__ - INFO - File Tuple Parts: ('app', '.log')
+2022-03-23 16:32:42,306 - __main__ - INFO - ############### Transformation Done
+2022-03-23 16:32:42,307 - __main__ - INFO - Return code: 0
+2022-03-23 16:32:42,307 - __main__ - INFO - File Tuple Parts: ('hello', '.txt')
+2022-03-23 16:32:42,519 - __main__ - INFO - ############### Transformation Done
+2022-03-23 16:32:42,520 - __main__ - INFO - Return code: 0
+2022-03-23 16:32:42,520 - __main__ - INFO - File Tuple Parts: ('scan-conf', '.yaml')
+2022-03-23 16:32:42,816 - __main__ - INFO - ############### Transformation Done
+2022-03-23 16:32:42,816 - __main__ - INFO - Return code: 0
+2022-03-23 16:32:42,816 - __main__ - INFO - File Tuple Parts: ('devices', '')
+2022-03-23 16:32:43,006 - __main__ - INFO - ############### Transformation Done
+2022-03-23 16:32:43,007 - __main__ - INFO - Return code: 0
+2022-03-23 16:33:42,653 - __main__ - INFO - Scan Folder Properties: {'scan': {'basePath': '/Users/Shared/Workspace/Development/NikeBuild/python/cron-script/fileset/nma', 'folder': {'network': '/user/local/network'}}}
+2022-03-23 16:33:42,660 - __main__ - INFO - Displaying Input Parameters as: None
+2022-03-23 16:33:42,661 - __main__ - INFO - File to be process: ['fileset', 'output', '__init__.py', 'scan-directory.py', 'logger.yaml', 'scan-directory-copy.py', 'logger.conf', 'app.log', 'hello.txt', 'app.log.1', 'scan-conf.yaml', 'devices']
+2022-03-23 16:33:42,661 - __main__ - INFO - File Tuple Parts: ('fileset', '')
+2022-03-23 16:33:42,954 - __main__ - INFO - ############### Transformation Done
+2022-03-23 16:33:42,954 - __main__ - INFO - Return code: 0
+2022-03-23 16:33:42,955 - __main__ - INFO - File Tuple Parts: ('output', '')
+2022-03-23 16:33:43,133 - __main__ - INFO - ############### Transformation Done
+2022-03-23 16:33:43,133 - __main__ - INFO - Return code: 0
+2022-03-23 16:33:43,134 - __main__ - INFO - File Tuple Parts: ('__init__', '.py')
+2022-03-23 16:33:43,319 - __main__ - INFO - ############### Transformation Done
+2022-03-23 16:33:43,320 - __main__ - INFO - Return code: 0
+2022-03-23 16:33:43,320 - __main__ - INFO - File Tuple Parts: ('scan-directory', '.py')
+2022-03-23 16:33:43,478 - __main__ - INFO - ############### Transformation Done
+2022-03-23 16:33:43,478 - __main__ - INFO - Return code: 0
+2022-03-23 16:33:43,478 - __main__ - INFO - File Tuple Parts: ('logger', '.yaml')
+2022-03-23 16:33:43,753 - __main__ - INFO - ############### Transformation Done
+2022-03-23 16:33:43,754 - __main__ - INFO - Return code: 0
+2022-03-23 16:33:43,754 - __main__ - INFO - File Tuple Parts: ('scan-directory-copy', '.py')
+2022-03-23 16:33:44,057 - __main__ - INFO - ############### Transformation Done
+2022-03-23 16:33:44,057 - __main__ - INFO - Return code: 0
+2022-03-23 16:33:44,057 - __main__ - INFO - File Tuple Parts: ('logger', '.conf')
+2022-03-23 16:33:44,265 - __main__ - INFO - ############### Transformation Done
+2022-03-23 16:33:44,265 - __main__ - INFO - Return code: 0
+2022-03-23 16:33:44,266 - __main__ - INFO - File Tuple Parts: ('app', '.log')
+2022-03-23 16:33:44,497 - __main__ - INFO - ############### Transformation Done
+2022-03-23 16:33:44,497 - __main__ - INFO - Return code: 0
+2022-03-23 16:33:44,497 - __main__ - INFO - File Tuple Parts: ('hello', '.txt')
+2022-03-23 16:33:44,701 - __main__ - INFO - ############### Transformation Done
+2022-03-23 16:33:44,702 - __main__ - INFO - Return code: 0
+2022-03-23 16:33:44,702 - __main__ - INFO - File Tuple Parts: ('app.log', '.1')
+2022-03-23 16:33:44,914 - __main__ - INFO - ############### Transformation Done
+2022-03-23 16:33:44,915 - __main__ - INFO - Return code: 0
+2022-03-23 16:33:44,915 - __main__ - INFO - File Tuple Parts: ('scan-conf', '.yaml')
+2022-03-23 16:33:45,103 - __main__ - INFO - ############### Transformation Done
+2022-03-23 16:33:45,103 - __main__ - INFO - Return code: 0
+2022-03-23 16:33:45,104 - __main__ - INFO - File Tuple Parts: ('devices', '')
+2022-03-23 16:33:45,330 - __main__ - INFO - ############### Transformation Done
+2022-03-23 16:33:45,330 - __main__ - INFO - Return code: 0
+2022-03-23 16:34:25,100 - __main__ - INFO - Scan Folder Properties: {'scan': {'basePath': '/Users/Shared/Workspace/Development/NikeBuild/python/cron-script/fileset/nma', 'folder': {'network': '/user/local/network'}}}
+2022-03-23 16:34:56,969 - __main__ - INFO - Displaying Input Parameters as: None
+2022-03-23 16:37:35,167 - __main__ - INFO - Scan Folder Properties: {'scan': {'basePath': '/Users/Shared/Workspace/Development/NikeBuild/python/cron-script/fileset/nma', 'folder': {'network': '/user/local/network'}}}
+2022-03-23 16:37:39,937 - __main__ - INFO - Displaying Input Parameters as: None
+2022-03-23 16:38:25,848 - __main__ - INFO - Scan Folder Properties: {'scan': {'basePath': '/Users/Shared/Workspace/Development/NikeBuild/python/cron-script/fileset/nma', 'folder': {'network': '/user/local/network'}}}
+2022-03-23 16:38:25,859 - __main__ - INFO - Displaying Input Parameters as: None
+2022-03-23 16:38:25,859 - __main__ - INFO - File to be process: ['nam_inventory1.txt', 'nma_inventory2.txt']
+2022-03-23 16:38:25,859 - __main__ - INFO - File Tuple Parts: ('nam_inventory1', '.txt')
+2022-03-23 16:38:26,401 - __main__ - INFO - ############### Transformation Done
+2022-03-23 16:38:26,401 - __main__ - INFO - Return code: 0
+2022-03-23 16:38:26,402 - __main__ - INFO - File Tuple Parts: ('nma_inventory2', '.txt')
+2022-03-23 16:38:26,593 - __main__ - INFO - ############### Transformation Done
+2022-03-23 16:38:26,594 - __main__ - INFO - Return code: 0
+2022-03-23 16:43:58,760 - __main__ - INFO - Displaying Input Parameters as: None
+2022-03-23 16:43:58,761 - __main__ - INFO - File to be process: ['nam_inventory1.txt', 'nma_inventory2.txt']
+2022-03-23 16:43:58,761 - __main__ - INFO - File Tuple Parts: ('nam_inventory1', '.txt')
+2022-03-23 16:43:59,114 - __main__ - INFO - ############### Transformation Done
+2022-03-23 16:43:59,114 - __main__ - INFO - Return code: 0
+2022-03-23 16:43:59,115 - __main__ - INFO - File Tuple Parts: ('nma_inventory2', '.txt')
+2022-03-23 16:43:59,279 - __main__ - INFO - ############### Transformation Done
+2022-03-23 16:43:59,279 - __main__ - INFO - Return code: 0

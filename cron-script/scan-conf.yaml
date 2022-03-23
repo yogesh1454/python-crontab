@@ -1,0 +1,9 @@
+scan:
+  basePath: '/Users/Shared/Workspace/Development/NikeBuild/python/cron-script/fileset/nma'
+  logConfig: logger.yaml
+  loader:
+    url: localhost
+  network:
+    nma:
+      name: nma
+      user: username
